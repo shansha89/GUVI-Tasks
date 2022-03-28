@@ -1,0 +1,53 @@
+{
+    "personalInfo":{
+        "name":"Karthick.A",
+        "fatherName":"Arumugam",
+        "motherName":"Mekala",
+        "dob":"17-08-1989",
+        "Gender":"Male",
+        "martialStatus":"Married",
+        "mobile_no":["9791750818","8667391290"],
+        "language":["Tamil","English","Hindi"],
+        "location":{
+            "address": "12 Dabir Theru",
+            "city":"Kumbakonam",
+            "pincode":"612001",
+            "district":"Thanjavur"
+        }
+    },
+    "educational_info":{
+        "qualification":"MCA",
+        "educational_details":{
+            "PG":{
+                "department":"MCA",
+                "year_of_passing":"2015",
+                "percentage":"75%",
+                "university":"Bharathidasn University"
+            },
+            "UG":{
+                "department":"B.Sc(Communication and Computer Science)",
+                "year_of_passing":"2011",
+                "percentage":"57%",
+                "university":"Sastra University"
+            },
+            "HigerSecondary":{
+                "department":"Computer Science",
+                "year_of_passing":"2008",
+                "percentage":"55%",
+                "university":"Native Higer Secondry School"
+            },
+            "Secondary":{
+                "department":"SSLC",
+                "year_of_passing":"2006",
+                "percentage":"69%",
+                "university":"Native Higer Secondry School"
+            }
+        }
+    },
+    "professional_details":{
+        "companyName":"Logic Research Labs",
+        "designation":"Senior Software Programmer",
+        "experience":"5+ Years",
+        "CTC":"3L Per Annum"
+    }
+}
