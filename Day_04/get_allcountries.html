@@ -1,0 +1,30 @@
+<script>
+
+	var http = new XMLHttpRequest();
+
+	http.onload = function(){
+
+		if(http.status >= 200 && http.status < 300 ){
+
+	        let json_data = http.responseText;
+	        let json_obj = JSON.parse(json_data);
+
+		       for(let i in json_obj){
+
+		       		console.log("Country Name:"+json_obj[i]['name'].common);
+		       		console.log("Region:"+json_obj[i].region);
+		       		console.log("Sub-Region:"+json_obj[i].subregion);
+		            console.log("Population:"+json_obj[i].population);
+		            console.log("-------------------------------");
+		       } 
+       
+	    }else{
+	        console.log(http.responseText);
+	    }
+
+	}//END FUNCTION
+
+http.open('GET','https://restcountries.com/v3.1/all');
+http.send();
+	
+</script>

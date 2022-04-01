@@ -1,0 +1,22 @@
+<script>
+    var http = new XMLHttpRequest();
+
+http.onload = function (){
+
+    if(http.status >= 200 && http.status < 300 ){
+        let json_data = http.responseText;
+        let json_obj = JSON.parse(json_data);
+
+       for(let i in json_obj){
+            console.log(json_obj[i].flag)
+       } 
+       
+    }else{
+        console.log(http.responseText);
+    }
+}
+
+http.open('GET','https://restcountries.com/v3.1/all');
+http.send();
+
+</script>
