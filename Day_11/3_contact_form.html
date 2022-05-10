@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+
+        body{
+            background-size: cover;
+            height: auto;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            width: 800px;
+            height: 680px;
+            background-color: darkgray;
+            margin: 50px auto;
+            box-sizing: border-box;
+            padding: 40px;
+            box-shadow: 0 0 20px rgb(128, 128, 128);
+        }
+
+       .container p{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 45px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .input, .msg .area {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 25px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .login .input{
+            width: 48%;
+            float: left;
+            margin-right: 4%;
+        }
+
+        .login .input:last-child{
+            margin-right: 0;
+        }
+
+        .msg .area{
+            height: 200px;
+        }
+
+        .btn {
+            width: 250px;
+            background-color: crimson;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            cursor: pointer;
+            margin: 0 auto;
+            font-size: 16px;
+            border-radius: 5px;
+            text-transform: uppercase;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <p>Contact Form</p>
+
+        <div class="login">
+            <input type="text" class="input" placeholder="First Name" >
+            <input type="text" class="input" placeholder="Last Name">
+        </div>
+
+        <div class="subject">
+            <input type="text" class="input" placeholder="Email ID">
+        </div>
+
+        <div class="subject">
+            <input type="text" class="input" placeholder="Subject">
+        </div>
+
+        <div class="msg">
+            <textarea class="area" placeholder="Message"></textarea>
+        </div>
+
+        <div class="btn"> Send Message</div>
+       
+
+    </div>
+    
+</body>
+</html>

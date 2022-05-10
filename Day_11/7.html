@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div align="center">
+        <table style="border: 1px solid #000" cellpadding="5" cellspacing="5">
+          <tr>
+            <td colspan="3">
+              <p
+                style="
+                  text-align: center;
+                  background-color: red;
+                  padding: 10px;
+                  color: white;
+                  font-size: 22px;
+                  font-weight: bold;
+                "
+              >
+                Yes! I want to subscribe to
+                <i style="font-size: 26px">Mag-o-Zine</i>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="firsname" id="firstname" /><br />First
+              Name
+            </td>
+            <td colspan="2">
+              <input type="text" name="lastname" id="lastname" /><br />Last Name
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <input type="text" name="address" id="address" size="75" /><br />
+              Address
+            </td>
+          </tr>
+          <tr>
+            <td><input type="text" name="city" id="city" /><br />City</td>
+            <td><input type="text" name="state" id="state" /><br />State</td>
+            <td><input type="text" name="zip" id="zip" /><br />Zip</td>
+          </tr>
+          <tr>
+            <td>Subscribe for:</td>
+            <td><input type="checkbox" />1 Year($19.95)</td>
+            <td><input type="checkbox" />2 Year($35.00)</td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              Send me more information about:
+              <br />
+              <input
+                type="checkbox"
+                name="computer_zine"
+                id="computer_zine"
+              />Computer_zine<br />
+              <input
+                type="checkbox"
+                name="fishing_zine"
+                id="fishing_zine"
+              />Fishing_zine<br />
+              <input
+                type="checkbox"
+                name="cat_o_zine"
+                id="cat_o_zine"
+              />Cat-O-Zine
+              <br />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
